@@ -7,7 +7,7 @@ export default function App() {
 
   return (
     <View style={container}>
-      <Text>Hello</Text>
+      <Text>Home</Text>
     </View>
   );
 }

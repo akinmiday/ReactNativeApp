@@ -1,4 +1,4 @@
-import { View, Text } from "react-native";
+import { View, Text, ScrollView, RefreshControl } from "react-native";
 import styles from "./styles";
 import { useState } from "react";
 
@@ -7,7 +7,7 @@ export default function App() {
 
   return (
     <View style={container}>
-      <Text>Hello</Text>
+      <Text></Text>
     </View>
   );
 }

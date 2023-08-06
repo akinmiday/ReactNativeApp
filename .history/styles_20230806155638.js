@@ -2,9 +2,10 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
   container: {
+    marginTop: 40,
+    padding: 20,
+    backgroundColor: "#fff",
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
   },
   input: {
     backgroundColor: "pink",
@@ -15,15 +16,8 @@ const styles = StyleSheet.create({
   },
   text: {
     color: "red",
-    fontSize: 20,
-    fontFamily: "Arial",
-    fontStyle: "italic",
-    fontWeight: "normal",
-    letterSpacing: 1,
-    textAlign: "auto",
-    textDecorationLine: "underline",
-    textDecorationColor: "green",
-    textTransform: "lowercase",
+    fontSize: 30,
+    fontFamily: "Avenir Next Condensed",
   },
   button: {
     backgroundColor: "yellow",
@@ -45,11 +39,6 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 10,
-  },
-  value: {
-    fontWeight: "bold",
-    padding: 5,
-    marginBottom: 10,
   },
 });
 

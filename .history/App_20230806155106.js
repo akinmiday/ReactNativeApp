@@ -3,11 +3,11 @@ import styles from "./styles";
 import { useState } from "react";
 
 export default function App() {
-  const { container } = styles;
+  const { container, input } = styles;
 
   return (
     <View style={container}>
-      <Text>Hello</Text>
+      <Text />
     </View>
   );
 }

@@ -1,13 +1,19 @@
-import { View, Text } from "react-native";
+import {
+  View,
+  Text,
+  InputAccessoryView,
+  TextInput,
+  Button,
+} from "react-native";
 import styles from "./styles";
 import { useState } from "react";
 
 export default function App() {
-  const { container } = styles;
+  const { container, input } = styles;
 
   return (
     <View style={container}>
-      <Text>Hello</Text>
+      <Text />
     </View>
   );
 }

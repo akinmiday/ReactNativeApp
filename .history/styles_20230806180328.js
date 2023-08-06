@@ -2,9 +2,9 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
+   flex:1,
+   justifyContent:"center",
+   alignItems:"center"
   },
   input: {
     backgroundColor: "pink",
@@ -46,11 +46,11 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 10,
   },
-  value: {
-    fontWeight: "bold",
-    padding: 5,
-    marginBottom: 10,
-  },
+  value:{
+    fontWeight:"bold",
+    padding:5,
+    marginBottom:
+  }
 });
 
 export default styles;

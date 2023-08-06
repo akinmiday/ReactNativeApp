@@ -1,4 +1,4 @@
-import { View, Text } from "react-native";
+import { View, Image } from "react-native";
 import styles from "./styles";
 import { useState } from "react";
 
@@ -7,7 +7,7 @@ export default function App() {
 
   return (
     <View style={container}>
-      <Text>Hello</Text>
+      <Image source={require("./assets/lease-nest-1.png")} />
     </View>
   );
 }

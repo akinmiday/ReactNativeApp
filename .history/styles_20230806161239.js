@@ -2,9 +2,19 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
   container: {
+    backgroundColor: "red",
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
+    padding: 20,
+    margin: 50,
+    borderBottomColor: "yellow",
+    borderTopColor: "blue",
+    borderLeftColor: "orange",
+    borderRightColor: "green",
+    borderBottomLeftRadius: 50,
+    borderBottomRightRadius: 100,
+    borderTopLeftRadius: 90,
+    borderTopRightRadius: 45,
+    borderWidth: 30,
   },
   input: {
     backgroundColor: "pink",
@@ -45,11 +55,6 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 10,
-  },
-  value: {
-    fontWeight: "bold",
-    padding: 5,
-    marginBottom: 10,
   },
 });
 
